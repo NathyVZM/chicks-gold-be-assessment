@@ -51,3 +51,9 @@ Make an HTTP Request using the API Client of preference (e.g.: Postman, Insomnia
     "xName": "Bucket X",
     "yName": "Bucket Y"
 }
+```
+Where:
+- `bucketX` is the capacity for X/Bucket 1/Jug 1
+- `bucketY` is the capacity for Y/Bucket 2/Jug 2
+- `xName` is the given name for Bucket 1 (for explanation purposes)
+- `yName` is the given name for Bucket 2 (for explanation purposes)
