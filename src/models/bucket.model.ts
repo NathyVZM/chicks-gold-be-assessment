@@ -1,8 +1,24 @@
 export class Bucket {
-    capacity = 0
-    current = 0
+    private capacity = 0
+    private current = 0
 
     constructor(capacity: number) {
+        this.capacity = capacity
+    }
+
+    get getCurrent() {
+        return this.current
+    }
+
+    set setCurrent(current: number) {
+        this.current = current
+    }
+
+    get getCapacity() {
+        return this.capacity
+    }
+
+    set setCapacity(capacity: number) {
         this.capacity = capacity
     }
 
@@ -17,7 +33,7 @@ export class Bucket {
     transfer(amount: number) {
         if (this.current + amount <= this.capacity) {
             this.current += amount
-            return this.current
+            return amount
         }
 
         const overflow = this.capacity - this.current

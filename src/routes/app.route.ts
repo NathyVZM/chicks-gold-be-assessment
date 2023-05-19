@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { getWaterJug } from "../controllers";
+import { solveWaterJugRiddle } from "../controllers";
 
 const router = Router()
 
-router.post('/', getWaterJug)
+router.post('/', solveWaterJugRiddle)
 
 export default router
