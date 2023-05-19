@@ -41,7 +41,7 @@ In case the development server is preferred, run it with this command:
 npm run dev
 ```
 
-Make an HTTP Request using the HTTP Client of preference (e.g.: Postman, Insomnia) to the URL `http://localhost:3000` with the following body structure (`json`) to get the solution to the Water Jug Riddle:
+Make an HTTP Request using the API Client of preference (e.g.: Postman, Insomnia) to the URL `http://localhost:3000` with the following body structure (`json`) to get the solution to the Water Jug Riddle:
 
 ```json
 {
