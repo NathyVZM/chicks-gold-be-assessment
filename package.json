@@ -1,0 +1,38 @@
+{
+  "name": "chicks-gold-be-assessment",
+  "version": "1.0.0",
+  "description": "Backend assessment for Chicks Gold",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathyVZM/chicks-gold-be-assessment.git"
+  },
+  "author": "Nathalie Zambrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathyVZM/chicks-gold-be-assessment/issues"
+  },
+  "homepage": "https://github.com/NathyVZM/chicks-gold-be-assessment#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/morgan": "^1.9.4",
+    "morgan": "^1.10.0",
+    "ts-node-dev": "^2.0.0",
+    "tsc-watch": "^6.0.4"
+  }
+}
