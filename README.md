@@ -45,9 +45,9 @@ Make an HTTP Request using the HTTP Client of preference (e.g.: Postman, Insomni
 
 ```json
 {
-    "bucketX": 2, // Number
-    "bucketY": 10, // Number
-    "amountWantedZ": 4, // Number
-    "xName": "Bucket X", // String - Can be any name
-    "yName": "Bucket Y" // String - Can be any name
+    "bucketX": 2,
+    "bucketY": 10,
+    "amountWantedZ": 4,
+    "xName": "Bucket X",
+    "yName": "Bucket Y"
 }
