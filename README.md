@@ -41,6 +41,12 @@ In case the development server is preferred, run it with this command:
 npm run dev
 ```
 
+<br>
+
+> In order to use environment variables, duplicate the file `env.default` and rename it to `.env`. The server will now use the PORT configured in the `.env` file
+
+<br>
+
 Make an HTTP Request using the API Client of preference (e.g.: Postman, Insomnia) to the URL `http://localhost:3000` with the following body structure (`json`) to get the solution to the Water Jug Riddle:
 
 ```json
